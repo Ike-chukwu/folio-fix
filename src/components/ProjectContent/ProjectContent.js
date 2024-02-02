@@ -14,10 +14,10 @@ const ProjectContent = () => {
     <section className="project-container">
       <div className="top-content">
         <h1 className="project-heading">
-          Things I’ve made trying to put my dent in the universe.
+          Selected Projects.
         </h1>
         <p className="project-briefing">
-          I've worked on a variety of projects over the past year and I'm proud
+          I've worked on a variety of projects in my career and I'm proud
           of the progress I've made so far. Many of these projects are
           open-source and available for others to explore and contribute to. If
           you're interested in any of the projects I've worked on, please feel
@@ -72,7 +72,7 @@ const ProjectContent = () => {
         </div>
       </div>
       <p className="footer">
-        Want to see more works?
+        Want to see more projects?
         <Link>
           <em className="link">Click here</em>
         </Link>
