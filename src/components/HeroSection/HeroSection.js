@@ -31,7 +31,6 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
-
         <div className="right-edge">
           <img src={pic} alt="" />
         </div>
