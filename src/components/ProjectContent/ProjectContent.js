@@ -13,18 +13,15 @@ const ProjectContent = () => {
   return (
     <section className="project-container">
       <div className="top-content">
-        <h1 className="project-heading">
-          Selected Projects.
-        </h1>
+        <h1 className="project-heading">Selected Projects.</h1>
         <p className="project-briefing">
-          I've worked on a variety of projects in my career and I'm proud
-          of the progress I've made so far. Many of these projects are
-          open-source and available for others to explore and contribute to. If
-          you're interested in any of the projects I've worked on, please feel
-          free to check out the code and suggest any improvements or
-          enhancements you might have in mind. Collaborating with others is a
-          great way to learn and grow, and I'm always open to new ideas and
-          feedback.
+          I've worked on a variety of projects in my career and I'm proud of the
+          progress I've made so far. Many of these projects are open-source and
+          available for others to explore and contribute to. If you're
+          interested in any of the projects I've worked on, please feel free to
+          check out the code and suggest any improvements or enhancements you
+          might have in mind. Collaborating with others is a great way to learn
+          and grow, and I'm always open to new ideas and feedback.
         </p>
         <div className="projects">
           <ProjectCard
@@ -73,7 +70,7 @@ const ProjectContent = () => {
       </div>
       <p className="footer">
         Want to see more projects?
-        <Link>
+        <Link to="https://github.com/Ike-chukwu">
           <em className="link">Click here</em>
         </Link>
       </p>
